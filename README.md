@@ -1,39 +1,30 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_circle_flags_svg
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A collection of circular country flags.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Assets size under ~130KB (compressed).
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Install
+Run: `flutter pub add flutter_circle_flags_svg`
 
-## Features
+## Demo
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+to view all flags https://hatscripts.github.io/circle-flags/gallery
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/in.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ng.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="48">
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+// use a valid country code
+CircleFlagSvg(code: 'us');
+CircleFlagSvg(code: 'fr');
+CircleFlagSvg(code: 'es');
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
