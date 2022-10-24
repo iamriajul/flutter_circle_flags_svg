@@ -1,2 +1,5 @@
+# 0.0.2
+fix(crash): crash was causing because flutter svg picture loading doesn't support symlink and there was some symlink in svg files.
+
 ## 0.0.1
 It has all countries flags icons rounded circular.
