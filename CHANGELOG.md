@@ -1,3 +1,6 @@
+# 0.0.3
+fix: ac and ta flag was missing.
+
 # 0.0.2
 fix(crash): crash was causing because flutter svg picture loading doesn't support symlink and there was some symlink in svg files.
 
