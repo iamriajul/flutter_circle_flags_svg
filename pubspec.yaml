@@ -1,6 +1,6 @@
 name: flutter_circle_flags_svg
 description: Flutter Circle Flags SVG, It is a Flutter package that provides a widget to display a circle flag of a country.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/iamriajul/flutter_circle_flags_svg
 
 environment:

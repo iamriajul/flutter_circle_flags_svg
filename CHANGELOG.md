@@ -1,3 +1,6 @@
+# 1.0.2
+docs: improved.
+
 # 1.0.1
 feat: example added. improved.
 
