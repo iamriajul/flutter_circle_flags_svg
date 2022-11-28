@@ -1,4 +1,4 @@
-library circle_flags;
+library flutter_circle_flags_svg;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

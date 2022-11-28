@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_circle_flags_svg/circle_flags.dart';
+import 'package:flutter_circle_flags_svg/flutter_circle_flags_svg.dart';
 import 'countries.dart';
 
 void main() {
