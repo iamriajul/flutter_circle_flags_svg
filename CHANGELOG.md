@@ -1,3 +1,6 @@
+# 1.0.3
+chore: improved static analysis.
+
 # 1.0.2
 docs: improved.
 

@@ -13,7 +13,8 @@ class CircleFlag extends StatelessWidget {
   late final String assetName;
 
   CircleFlag(this.countryCode, {super.key, this.size}) {
-    assetName = 'packages/flutter_circle_flags_svg/assets/flags/${countryCode.toLowerCase()}.svg';
+    assetName =
+        'packages/flutter_circle_flags_svg/assets/flags/${countryCode.toLowerCase()}.svg';
   }
 
   @override
