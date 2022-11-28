@@ -1,3 +1,6 @@
+# 1.0.0
+major: breaking change, new feature, made it more stable. compatible with circle_flags API structure.
+
 # 0.0.3
 fix: ac and ta flag was missing.
 
