@@ -13,7 +13,7 @@ class CircleFlag extends StatelessWidget {
   late final String assetName;
 
   CircleFlag(this.countryCode, {super.key, this.size}) {
-    assetName = 'packages/circle_flags/assets/svg/${countryCode.toLowerCase()}.svg';
+    assetName = 'packages/flutter_circle_flags_svg/assets/flags/${countryCode.toLowerCase()}.svg';
   }
 
   @override
@@ -66,7 +66,7 @@ class CircleFlag extends StatelessWidget {
   Future<bool> _isAssetNameValidSvg() async {
     try {
       final svgString = await rootBundle.loadString(assetName);
-      final drawableRoot = await svgParser.parse(svgString);
+      await svgParser.parse(svgString);
       return true;
     } catch (e) {
       throw Exception('Error loading asset $assetName');

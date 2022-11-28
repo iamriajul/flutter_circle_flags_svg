@@ -1,3 +1,6 @@
+# 1.0.1
+feat: example added. improved.
+
 # 1.0.0
 major: breaking change, new feature, made it more stable. compatible with circle_flags API structure.
 
